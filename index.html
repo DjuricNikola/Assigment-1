@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <style>
+        a[target] {
+            color: green;
+        }
+        a[target="_blank"] {
+            color: red;
+        }
+    [class|="top-text"] {
+        color: red;
+    }
+    [class|="text"] {
+        color: blue;
+    }
+    [class|="top text"] {
+        color: red;
+    }
+    [class|="text top"] {
+        color: blue;
+    }
+    [class|="txt"] {
+        color: red;
+    }
+    [class|="xtx"] {
+        color: blue;
+    }
+    [class|="div"] {
+        color: red;
+    
+    }
+
+
+    
+
+  
+    
+   
+  .div:hover {
+   font-style: italic;
+     }
+
+     p[class="topp-header"]::after {
+         content: "- New";
+         color: yellow;
+     }
+
+ 
+    
+    
+ 
+
+    </style>
+</head>
+
+<body>
+    <div id="some-id"></div>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com/" target="_self">Google</a>
+    <a href="https://www.google.com/doodles" target="_self">Google Doodles</a>
+    <a href="https://www.link-group.eu/" target="_blank">Goto Link Group</a>
+    <div id="first-div" class="content">
+        <h2>Subheading</h2>
+        <p class="topp-header">Paragraph 2</p>
+        <p class="topp-header">Paragraph 3</p>
+    
+        <div id="second-div">
+            <h3>Sub subheading</h3>
+            <p class="top-text">Paragraph 4</p>
+            <p class="text">Paragraph 5</p>
+            <p class="top text">Paragraph 6</p>
+            <p class="text top">Paragraph 7</p>
+            <p class="txt">Paragraph 8</p>
+        
+    <p class="xtx">Paragraph 9</p>
+    <p class="div">Paragraph 10</p>
+
+</body>
+
+</html>
